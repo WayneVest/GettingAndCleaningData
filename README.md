@@ -14,6 +14,8 @@ The script requires the R dplyr package, which the script will install if it isn
 
 It is expected that the obtained raw data is un-zipped into the present working directory root and has the following structure:
 
+pwd
+
 |── UCI HAR Dataset
 
 |........├── README.txt
