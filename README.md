@@ -12,6 +12,7 @@ Once the data is tidy, a new data set is derived that contains fewer observation
 The script requires the R dplyr package, which the script will install if it isn't already installed. The script will then load the dplyr library and proceed to run.
 
 It is expected that the obtained raw data is un-zipped into the present working directory root and has the following structure:
+<div>
 ├── UCI HAR Dataset
 │   ├── README.txt
 │   ├── activity_labels.txt
@@ -47,6 +48,7 @@ It is expected that the obtained raw data is un-zipped into the present working 
 │       └── y_train.txt
 ├── clean_combined_test_and_training.txt             <-- NOTE: output file for the original tidy data
 ├── clean_combined_test_and_training_averages.txt    <-- NOTE: output file for the derived (and also tidy) data
+</div>
 
 The script outputs two files into the present working directory:
 - the orginal tidy data as clean_combined_test_and_training.txt
